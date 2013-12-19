@@ -1,0 +1,108 @@
+html {
+    background-color: #eeeeee;
+    background-image: linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
+    background-image: -o-linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
+    background-image: -moz-linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
+    background-image: -webkit-linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
+    background-image: -ms-linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #333333;
+}
+
+.menu{
+    margin: 0 auto;
+    margin-top: 2em;
+    max-width: 800px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.menu #site-title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+.post {
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.post h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3em;
+}
+
+.post samp
+{
+    /* hide tutorial instructions so they don't show in the browser */
+    display: none;
+}
+
+.post img
+{
+    background: dimgray;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 15px 10px 10px;
+    margin: 10px 0;
+    max-width: 95%;
+}
+
+.paging{
+    margin: 2em auto;
+    margin-left: 25%;
+    margin-left: 25%;
+}
+
+.comment {
+    margin: 2em auto;
+    margin-bottom: 2em;
+}
+
+.disqus {
+    margin: 1em;
+}
+
+.previus-post, .next-post {
+    margin-bottom: 2em;
+}
+
+.post-header a {
+    color: black;
+    text-decoration: none;
+}
+
+.post-header a:hover {
+    color: #0078e7;
+    text-decoration: none;
+}
+
+.post-description {
+    
+}
+
+.post-description a {
+    color: #0078e7;
+    text-decoration: none;
+}
+
+.post-description a:hover {
+    color: black;
+    text-decoration: none;
+}

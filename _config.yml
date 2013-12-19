@@ -1,0 +1,19 @@
+name: Noor Adiana
+description: Catatan, orat - oret sakarep urang
+
+url: http://nooradiana.com/
+
+owner:
+    name: Noor Adiana
+    avatar: avatar.png
+    mail: nooradiana@gmail.com
+    twitter: noorAddianna
+    facebook: noorAddianna
+    github: NoorAdiana
+    google_plus: +NoorAdiana
+    disqus_shortname: nooradianadotcom
+
+paginate: 3
+markdown: rdiscount
+permalink: /:title
+pygments: true
