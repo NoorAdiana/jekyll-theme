@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="content">            
+    <div class="post">
+        <div class="post-header">
+            <div class="author">
+                <a href="#"><i class="fa fa-user"> </i>  {{ page.author }}</a> | <i class="fa fa-calendar"></i> {{ page.modified | date_to_long_string }} | <a href="#">{{ page.categories }}</a>
+            </div>
+        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    </div>
+        <div class="post-description">
+            {{ content }}
+        </div>
+    </div>
+    <div class="post comment">
+        <div class="disqus" id="disqus_thread"></div>
+    </div>
+            <!--
+            <div class="post-nav">
+                <a class="next-post pure-button pull-right pure-button-primary" href="#">New Post</a>
+                <a class="previus-post pure-button pull-left pure-button-primary" href="#">Older Post</a>
+            </div>                    
+            -->
+            
+            {% include disqus_comments.html%}
+    </div>

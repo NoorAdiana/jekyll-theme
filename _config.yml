@@ -1,19 +1,17 @@
-name: Noor Adiana
-description: Catatan, orat - oret sakarep urang
-
-url: http://nooradiana.com/
+title: Noor Abdullah Adiana
+url: http://localhost:4000/
 
 owner:
-    name: Noor Adiana
-    avatar: avatar.png
+    name: Noor Abdullah Adiana
     mail: nooradiana@gmail.com
     twitter: noorAddianna
     facebook: noorAddianna
     github: NoorAdiana
     google_plus: +NoorAdiana
-    disqus_shortname: nooradianadotcom
+    disqus_shortname: nooradiana
 
-paginate: 3
-markdown: rdiscount
-permalink: /:title
-pygments: true
+paginate:   3
+markdown:   rdiscount
+permalink:  /post/:title
+pygments:   true
+timezone:   Asia/Jakarta

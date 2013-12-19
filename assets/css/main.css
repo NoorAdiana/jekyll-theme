@@ -10,14 +10,17 @@ html {
 body{
     font-family: "Ubuntu", sans-serif;
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 2em;
     color: #333333;
+    text-align: justify;
 }
 
 .menu{
     margin: 0 auto;
     margin-top: 2em;
     max-width: 800px;
+    padding-left: 2em;
+    padding-right: 2em;
     background-color: #ffffff;
     -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
@@ -29,14 +32,9 @@ body{
     font-weight: bold;
 }
 
-.content {
-    margin: 0 auto;
-    padding: 0;
-    max-width: 800px;
-}
-
 .post {
-    margin: 2em auto;
+    max-width: 800px;
+    margin: 1.5em auto;
     padding: 2em;
     background-color: #ffffff;
     -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
@@ -46,6 +44,10 @@ body{
 
 .post h1, h2, h3, h4, h5, h6 {
     line-height: 1.3em;
+}
+
+.post h1 {
+    text-transform: uppercase;
 }
 
 .post samp
@@ -105,4 +107,9 @@ body{
 .post-description a:hover {
     color: black;
     text-decoration: none;
+}
+
+.post-nav {
+    max-width: 850px;
+    margin: 0 auto;
 }

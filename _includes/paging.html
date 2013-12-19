@@ -1,0 +1,33 @@
+<section class="post"><br>
+    <div class="paginator">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+          <a href="{{ site.url }}" class="pure-button prev">Previous</a>
+        {% else %}
+          <a href="{{ site.url }}/page{{ paginator.previous_page }}" class="pure-button prev">Previous</a>
+        {% endif %}
+      {% else %}
+        <span class="pure-button prev pure-button-disabled">Previous</span>
+      {% endif %}
+      
+      {% if paginator.page == 1 %}
+        <span class="pure-button pure-button-active">1</span>
+      {% else %}
+        <a href="{{ site.url }}" class="pure-button">1</a>
+      {% endif %}
+      
+      {% for count in (2..paginator.total_pages) %}
+        {% if count == paginator.page %}
+          <span class="pure-button pure-button-active">{{ count }}</span>
+        {% else %}
+          <a href="{{ site.url }}/page{{ count }}" class="pure-button">{{ count }}</a>
+        {% endif %}
+      {% endfor %}
+      
+      {% if paginator.next_page %}
+        <a href="{{ site.url }}/page{{ paginator.next_page }}" class="pure-button next">Next</a>
+      {% else %}
+        <span class="pure-button next pure-button-disabled">Next</span>
+      {% endif %}
+    </div>
+</section>
