@@ -67,7 +67,7 @@ body{
 }
 
 .paging{
-    margin: 2em auto;
+    margin: 0 auto;
     margin-left: 25%;
     margin-left: 25%;
 }
@@ -112,4 +112,11 @@ body{
 .post-nav {
     max-width: 850px;
     margin: 0 auto;
+}
+
+.post pre {
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #eeeeee;
+    background-image: linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
 }
